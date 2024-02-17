@@ -1,0 +1,31 @@
+:root {
+    --main-color: #050440;
+    --sec-color: #508484;
+    --third-color: #ece5e5;
+}
+
+.slab {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
+}
+
+.nav_bg {
+    background-color: var(--main-color);
+}
+
+
+.img-intro {
+    object-fit: auto;
+
+}
+
+.main_c {
+    color: var(--main-color);
+}
+
+.sec_c {
+    color: var(--sec-color);
+}
