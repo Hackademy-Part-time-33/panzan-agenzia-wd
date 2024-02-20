@@ -14,6 +14,13 @@
 
 .nav_bg {
     background-color: var(--main-color);
+
+
+}
+
+.nav_link {
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -28,4 +35,8 @@
 
 .sec_c {
     color: var(--sec-color);
+}
+
+.txt-j {
+    text-align: justify;
 }
