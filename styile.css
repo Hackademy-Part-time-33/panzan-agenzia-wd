@@ -4,25 +4,29 @@
     --third-color: #ece5e5;
 }
 
-.slab {
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
+
+.title_txt {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
     font-style: normal;
-
-}
-
-.nav_bg {
-    background-color: var(--main-color);
-
-
 }
 
 .nav_link {
-    color: white;
+    color: var(--main-color);
     text-decoration: none;
 }
 
+body {
+    background-color: var(--third-color);
+
+
+
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+}
 
 .img-intro {
     object-fit: auto;
@@ -39,4 +43,10 @@
 
 .txt-j {
     text-align: justify;
+}
+
+.anm_link {}
+
+.anm_link:hover {
+    transform: scale(1.1);
 }
