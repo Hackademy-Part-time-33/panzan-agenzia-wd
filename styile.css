@@ -41,6 +41,15 @@ body {
     color: var(--main-color);
 }
 
+.third_c {
+    color: var(--third-color);
+}
+
+
+.main_c_bg {
+    background-color: var(--main-color);
+}
+
 .sec_c {
     color: var(--sec-color);
 }
