@@ -5,8 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Panzanella Viaggi</title>
+    <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="npm i bootstrap-icons">
+    <!-- css -->
     <link rel="stylesheet" href="styile.css">
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,45 +24,50 @@
 </head>
 
 <body>
-    <div class=" z-3 nav_bg">
-        <nav class="navbar navbar-expand-md " aria-label="Fourth navbar example">
-            <div class="container-fluid wv-100">
-                <span>
-                    <img src="/assets/logos/logo-main.png" alt="logo-img" width="100px">
-                </span>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="true"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-md z-3  " aria-label="Fourth navbar example">
+        <div class="container-fluid wv-100">
+            <span>
+                <img src="/assets/logos/logo-main.png" alt="logo-img" width="100px">
+            </span>
+
+            <button class=" btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+                aria-controls="navbarsExample04" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav ps-3 me-auto mb-2 mb-md-0 ">
+                    <li class="nav-item px-2 anm_link ">
+                        <a class="nav_link title_txt " href="#">Home</a>
+                    </li>
+                    <li class="nav-item px-2 anm_link">
+                        <a class="nav_link title_txt " href="#">Destinazioni</a>
+                    </li>
+                    <li class="nav-item px-2 anm_link">
+                        <a class="nav_link title_txt " href="#">Recensioni</a>
+                    </li>
+                    <li class="nav-item px-2 anm_link">
+                        <a class="nav_link title_txt " href="#">Contatti</a>
+                    </li>
+
+                </ul>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn main_c main_bg_c title_txt " data-bs-toggle="modal"
+                    data-bs-target="#exampleModal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-airplane-fill " viewBox="0 0 16 16">
+                        <path
+                            d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849" />
+                    </svg>
+                    viaggia subito
                 </button>
-
-                <div class="collapse navbar-collapse  " id="navbarsExample04">
-                    <ul class="navbar-nav ps-3 me-auto mb-2 mb-md-0 ">
-                        <li class="nav-item px-2 anm_link ">
-                            <a class="nav_link " href="#">Home</a>
-                        </li>
-                        <li class="nav-item px-2 anm_link">
-                            <a class="nav_link " href="#">Destinazioni</a>
-                        </li>
-                        <li class="nav-item px-2 anm_link">
-                            <a class="nav_link " href="#">Recensioni</a>
-                        </li>
-                        <li class="nav-item px-2 anm_link">
-                            <a class="nav_link " href="#">Contatti</a>
-                        </li>
-
-                    </ul>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn main_c main_bg_c " data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">logo
-
-                    </button>
-
-                </div>
             </div>
-        </nav>
-    </div>
+        </div>
+
+
+
+    </nav>
+
 
 
     <div class="d-flex justify-content-center">
