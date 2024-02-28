@@ -23,6 +23,11 @@
     height: 65px;
 }
 
+.toggler_icon {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 body {
     background-color: var(--third-color);
 
