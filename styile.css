@@ -55,6 +55,10 @@ body {
     background-color: var(--main-color);
 }
 
+.third_c_bg {
+    background-color: var(--third-color);
+}
+
 .sec_c {
     color: var(--sec-color);
 }
